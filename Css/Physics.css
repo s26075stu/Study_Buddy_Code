@@ -1,0 +1,282 @@
+/* General Page Styling */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Dangrek", sans-serif;
+	box-sizing: border-box;
+}
+
+html, body {
+display: grid;
+	background-color: black;
+	}
+
+
+    /* Navigation Bar Styling */
+
+
+#nav-bar {
+	background: rgb(59, 38, 59);
+	color: white;
+	overflow: auto;
+  }
+  
+  #nav-bar a {
+	color: white;
+	text-decoration: none;
+  }
+
+
+  
+  #nav-bar h1 {
+	float: left;
+	padding: 20px;
+  
+  }
+
+  #nav-bar .logo a{
+	border: none;
+  }
+  
+  #nav-bar ul {
+	text-decoration: none;
+	list-style: none;
+	float: right;
+	margin-right: 10px;
+
+  }
+  
+  #nav-bar ul li {
+	float: left;
+  }
+  
+  #nav-bar ul li a {
+	display: block;
+	margin-top:10px;
+	margin-right: 7px;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  #nav-bar ul li a:hover {
+  background-color: rgb(122, 82, 122);
+  color:black;
+  transition-duration: 0.5s;
+  
+  }
+/* Navigation Bar Dropdown Styling */
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+.dropdown-btn {
+    font-size: 16px;  
+   border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+  .dropdown .dropdown-btn {
+    display: block;
+	margin-top:10px;
+	margin-right: 7px;
+	padding: 20px;
+	text-align: center;
+    color: white;
+    background-color:  rgb(59, 38, 59);
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropdown-btn {
+    background-color:rgb(122, 82, 122);
+    color: black;
+    transition: 0.5s;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+ 
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+background-color: black;
+  }
+
+  .dropdown-content a:hover {
+    background-color: rgb(59, 38, 59);
+    color: black;
+  }
+
+  /* Header Content Styling */
+
+  #header {
+   height: 750px;
+   background: rgb(21,17,23);
+background: linear-gradient(0deg, rgba(21,17,23,1) 2%,rgb(59, 38, 59) 100%);
+  }
+
+#header .header-content {
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+  }
+  
+  #header .header-content h1 {
+    font-size: 80px;
+    line-height: 1.2em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+ .header-content .btn {
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(122, 82, 122);
+    padding: 13px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+
+ /* Forum Styling */
+
+ .auth-form, .container {
+    background: rgb(122, 82, 122);
+    border-radius: 30px; /* Rounded corners for a modern look */
+    padding: 40px;
+    margin: 40px auto; /* Centering forms */
+}
+
+
+
+.auth-form {
+    width: 400px;
+    height: 500px;
+}
+
+.auth-form p span {
+    color: rgb(17, 33, 53);
+    text-decoration: underline;
+}
+.container {
+    max-width: 850px;
+}
+
+.hidden {
+    display: none;
+}
+
+input[type="text"], input[type="password"], textarea {
+    width: 100%;
+    padding: 21px 10px;
+    margin: 15px 0;
+    border: 2px solid #ccc; /* Thicker border for prominence */
+    border-radius: 15px; /* Rounded edges */
+    box-sizing: border-box;
+    transition: border-color 0.3s; /* Highlighting focus */
+}
+
+
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: rgb(80, 47, 80); 
+    color: white;
+    border: none;
+    border-radius: 10px; /* Consistency with input fields */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth color change */
+}
+
+button:hover {
+    background-color: rgb(40, 13, 40); 
+}
+
+#forum-section {
+    margin-top: 200px;
+}
+
+#forum-section header {
+    background-color:rgb(80, 47, 80); /* Bright blue header */
+    color: white;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+#forum-section header button {
+    background-color:rgb(82, 115, 156); /* Vibrant pink for the logout button */
+    border-radius: 4px;
+}
+
+#forum-section header button:hover {
+    background-color:rgb(44, 67, 96);
+}
+
+#new-thread-form {
+    margin-top: 40px;
+    border-top: 2px solid #ffffff; /* Stylish separation */
+    padding-top: 40px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.thread {
+   display: flexbox;
+    padding: 2px ;
+    margin: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+    color: white;
+    border-radius: 7px;
+    background-color: rgb(97, 70, 97) ;
+}
+
+.thread h3, .thread p, .thread small {
+    margin: 20px; /* Improved spacing for readability */
+    padding: 7px;
+}
+
+
+#forum-section header {
+        display: flexbox;
+        padding: 15px;
+        margin-right: 300px;
+        margin-left: 300px;
+        background-color: transparent;
+        font-size: 60px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }

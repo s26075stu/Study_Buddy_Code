@@ -1,0 +1,137 @@
+
+
+/* General Page Styling */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Dangrek", sans-serif;
+	box-sizing: border-box;
+}
+
+html, body {
+display: grid;
+	background-color: black;
+	font-family: "Dangrek", sans-serif ;
+	
+}
+
+
+/* Navigation Bar Styling */
+
+
+#nav-bar {
+	background: rgb(59, 38, 59);
+	color: white;
+	overflow: auto;
+  }
+  
+  #nav-bar a {
+	color: white;
+	text-decoration: none;
+	border-bottom: 2px solid rgb(122, 82, 122);
+	border-top: 2px solid rgb(122, 82, 122);
+  }
+
+
+  #nav-bar h1 {
+	float: left;
+	padding: 20px;
+  
+  }
+
+  #nav-bar .logo a{
+	border: none;
+  }
+  
+  #nav-bar ul {
+	text-decoration: none;
+	list-style: none;
+	float: right;
+	margin-right: 10px;
+
+  }
+  
+  #nav-bar ul li {
+	float: left;
+  }
+  
+  #nav-bar ul li a {
+	display: block;
+	margin-top:10px;
+	margin-right: 7px;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  #nav-bar ul li a:hover {
+  background-color: rgb(122, 82, 122);
+  color:black;
+  transition-duration: 0.5s;
+  
+  }
+
+  #nav-bar ul li a::after {
+	color: white;
+	text-decoration: none;
+	transition-duration:0.5s;
+  }
+
+/* Form Styling */
+
+label {
+	color: white;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid white;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+  }
+  
+  input[type=submit] {
+	background-color: rgb(122, 82, 122);
+	color: white;
+	padding: 12px 20px;
+	margin-left: 50%;
+	margin-bottom: 40px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	
+  }
+  
+  input[type=submit]:hover {
+	background-color: rgb(69, 32, 69);
+	transition-duration: 0.5s;
+  }
+  
+  
+
+
+
+/* Footer */
+.box {
+	float: left;
+	width: 33.3%;
+	padding: 50px;
+	text-align: center;
+  }
+  
+  .box i {
+	margin-bottom: 10px;
+  }
+
+  
+  #main-footer {
+	text-align: center;
+	background: rgb(122, 82, 122);
+	padding: 20px;
+  }
+  
+  
+  
+  
